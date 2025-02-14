@@ -25,11 +25,11 @@ def main():
   print("A_pays: $",A_pays)
   print("B_pays: $",B_pays)
 
-main()
+#main()
 
 # Last Step:
 # --------------------------------------------------
 #   1. comment out the line that has the call to main() above
 #   2. uncomment the following two lines:
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+  main()
